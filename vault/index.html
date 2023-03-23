@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure the Vault</title>
+</head>
+<script>
+    /*
+        1. create 3 vars
+        2. then assign 3 combinations to those 3 vars
+        3. create a string var that contains an intro message for user
+        4. join 3 combinations to the message 
+        5. view the final message using alert function
+    */
+
+    // create vars that contains calculations
+    let combination1 = 20 + 19; // 39
+    let combination2 = 20 * 2; // 40
+    let combination3 = 70 / 7; // 10 
+
+    // create a string that has an intro message
+    let message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination: ";
+    // join 3 combinations to the message
+    message = message + combination1 + " - " + combination2 + " - " + combination3;
+    // view the final message
+    alert(message);
+</script>
+<body>
+    <p>The vault is open now.</p>
+</body>
+</html>
